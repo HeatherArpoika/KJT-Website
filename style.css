@@ -1,0 +1,178 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #555;
+	font-size: 17px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Sorts Mill Goudy', serif;
+}
+
+h2 {
+	text-align: center;
+}
+
+a {
+	color: #f89c51;
+}
+
+a:focus, a:hover {
+    color: #273b76;
+}
+
+hr {
+	border-top: 3px double #1b2756;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.button {
+	font-size: 1.2rem;
+	border-radius: 5px;
+	background: #f37120;
+}
+
+.container {
+	margin: auto;
+}
+
+/***** HEADER *****/
+	#chevron {
+		height: 350px;
+		float: left;
+	}
+
+	#header-details {
+		background: #1b2756;
+		vertical-align: middle;
+		padding-left: 0;
+	}
+
+	#header h1 {
+		font-size: 2.3rem;
+	}
+
+	#header p, #header p a {
+		color: white;
+		font-size: 2rem;
+	}
+
+
+/***** NAVIGATION *****/
+	#nav1 {
+		background: #0a1e3e;
+		color: white;
+		height: 55px;
+
+		display: block;
+	}
+
+	#nav1 a {
+		color: white;
+	}
+
+	#nav1 a:hover {
+		color: #f9a960;
+	}
+
+	#nav1 p {
+		line-height: 55px;
+		vertical-align: middle;
+		display: inline-block;
+	}
+
+	#nav1 #socialMedia {
+		float: right;
+	}
+
+	#nav1 #socialMedia a {
+		padding-left: 15px;
+	}
+
+	.navigation {
+		background: white;
+		max-height: 250px;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: 'Sorts Mill Goudy', serif;
+		font-size: 1.3rem;
+	}
+
+	.navigation > ul > li {
+		margin: auto;
+		width: 100%;
+	}
+
+	#logo {
+		max-height: 250px;
+	}
+
+
+/***** ABOUT *****/
+	#about {}
+
+	#profile-img {
+		width: 150px;
+		border-radius: 50%;
+		float: left;
+		margin-right: 15px;
+		margin-bottom: 15px;
+	}
+
+	:last-child:not(.is-active)>.accordion-title {
+	    border-bottom: none;
+	    border-radius: 0 0 0 0;
+	}
+
+	.accordion-title {
+	    position: relative;
+	    display: block;
+	    padding: 15px;
+	    border: none;
+	    border-bottom: none;
+	    font-size: 1rem;
+	    line-height: 1;
+	    color: #f89c51;
+	    text-align: center;
+	}
+
+	.accordion-title:before {
+	    position: relative;
+	    display: none;
+	}
+
+	.accordion-title:focus, .accordion-title:hover {
+	    background-color: #ffffff;
+	}
+
+	:last-child>.accordion-content:last-child {
+	    border-bottom: none;
+	}
+
+	.accordion-content {
+	    display: none;
+	    padding: 0;
+	    border: none;
+	    border-bottom: none;
+	    background-color: #ffffff;
+	    color: #555;
+	}
+
+
+/***** FOOTER *****/
+	#footer {
+		font-family: 'Sorts Mill Goudy', serif;
+		font-size: 1.2rem;
+		background: #0a1e3e;
+		color: white;
+		padding-top: 35px;
+		padding-bottom: 50px;
+	}
+
+	#footer-contact {
+		padding-left: 25px;
+	}
+
+	#footer #logo {
+		max-height: 300px;
+	}
